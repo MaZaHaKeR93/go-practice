@@ -11,9 +11,9 @@ func main() {
 
 	if age < 12 {
 		fmt.Println("It's a child")
-	} else if age >= 12 || age < 18 {
+	} else if age < 18 {
 		fmt.Println("It's a teenager")
-	} else if age >= 18 || age < 60 {
+	} else if age < 60 {
 		fmt.Println("It's a adult")
 	} else {
 		fmt.Println("It's a pensioner")
